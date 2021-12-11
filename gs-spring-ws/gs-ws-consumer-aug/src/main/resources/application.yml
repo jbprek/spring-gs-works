@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.example.consumingwebservice: INFO
+    org.springframework.ws: DEBUG
+    org.springframework.ws.client.MessageTracing.sent: TRACE
+    org.springframework.ws.client.MessageTracing.received: TRACE
+
+
+
