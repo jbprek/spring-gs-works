@@ -1,4 +1,4 @@
-package com.example.producingwebservice;
+package com.example.country.ws.service;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
@@ -32,7 +32,7 @@ public class CountryRepository {
 		countries.put(poland.getName(), poland);
 
 		Country uk = new Country();
-		uk.setName("UK");
+		uk.setName("UKzzz");
 		uk.setCapital("London");
 		uk.setCurrency(Currency.GBP);
 		uk.setPopulation(63705000);

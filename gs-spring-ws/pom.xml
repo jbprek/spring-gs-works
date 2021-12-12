@@ -17,6 +17,7 @@
     <modules>
         <module>gs-ws-producer</module>
         <module>gs-ws-consumer</module>
+        <module>gs-ws-producer-aug</module>
         <module>gs-ws-consumer-aug</module>
     </modules>
 
