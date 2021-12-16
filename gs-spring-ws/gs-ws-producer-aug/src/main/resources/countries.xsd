@@ -6,18 +6,9 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="name" type="xs:string"/>
-                <xs:element name="meta" type="tns:metaInfo"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
-    <xs:complexType name="metaInfo">
-        <xs:sequence>
-            <xs:element name="ip" type="xs:string"/>
-            <xs:element name="tm" type="xs:string"/>
-        </xs:sequence>
-    </xs:complexType>
-
 
     <xs:element name="getCountryResponse">
         <xs:complexType>

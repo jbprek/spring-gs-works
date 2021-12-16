@@ -85,6 +85,7 @@
 						<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
 						<schemaIncludes>
 							<include>*.wsdl</include>
+<!--							<include>*.xsd</include>-->
 						</schemaIncludes>
 						<generatePackage>com.example.country.ws.dto</generatePackage>
 <!--						<schemas>-->
